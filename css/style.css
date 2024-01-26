@@ -474,6 +474,7 @@ h3.my-profession{
 }
 
 .about .about-content .skills-title{
+    margin-top: 25px;
     font-size: 24px;
     font-weight: 600;
     color: var(--text-black-900);
@@ -576,6 +577,54 @@ h3.my-profession{
     text-align: justify;
     color: var(--text-black-700);
 }
+
+/* =============== CERTIFICADOS INICIO =============== */
+
+.about .about-content .certificates-title{
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--text-black-900);
+    text-align: center;
+    border-bottom: 1px solid var(--text-black-700);
+}
+
+.about .about-content .card-article img{
+    width: 60%;
+}
+
+.about .about-content .certificates-container{
+    display: grid;
+}
+
+.about .about-content .cards-container{
+    display: grid;
+    margin-top: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2);
+}
+
+.about .about-content .cards-container .card-article .img-container,
+.about .about-content .cards-container .card-article-english .img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .about-content .cards-container .card-article .card-data,
+.about .about-content .cards-container .card-article-english .card-data{
+    text-align: center;
+    color: var(--text-black-900);
+}
+
+.about .about-content .cards-container .card-article-english{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    justify-content: center;
+    align-content: center;
+}
+
+/* =============== CERTIFICADOS FINAL =============== */
 
 /* PORTFOLIO */
 
